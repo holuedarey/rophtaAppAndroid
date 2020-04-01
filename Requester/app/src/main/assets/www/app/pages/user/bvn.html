@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <title>BVN</title>
+</head>
+
+<body class="signin navtop" js="user/bvn.js">
+
+  <layout-table>
+    <layout-header>
+
+      <nav class="nav2 fixed-top">
+        <div class="nav-wrapper">
+
+          <div class="row">
+            <div class="col s3">
+              <a href="#user/info" class="leftnav">
+                <i class="material-icons left">chevron_left</i> Profile
+              </a>
+            </div>
+            <div class="col s6">
+              <div class="center">
+                <span class="titlebar">BVN</span>
+              </div>
+            </div>
+            <div class="col s3">
+              <a class="right" href="#user/logout">Logout</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </layout-header>
+    <layout-row>
+
+      <div class="center_wrapper">
+
+
+        <form id="form" action="javascript://" class="form" method="post" target="_self">
+
+          <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <input autocomplete="off" id="bvn" name="bvn" required="" type="text" class="validate">
+            <label for="bvn">BVN</label>
+          </div>
+
+          <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <textarea id="address" name="address" required class="materialize-textarea"></textarea>
+            <label for="address">Address</label>
+          </div>
+
+          <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <input type="text" id="dob" name="dob" placeholder="1983-12-25" required class="validate" />
+            <label for="dob">Date of Birth (e.g. yyyy-mm-dd)</label>
+          </div>
+
+          <div class="hint">
+            Your BVN is collected solely to verify your identity, and to improve your user experience across our apps, and it will not be disclosed, shared, sold or rented out to any third party agent and/or organization.
+          </div>
+
+          <br />
+          <br />
+
+
+
+          <div class="row">
+            <div class="col s6">
+              <a href="#user/info" class="waves-effect red waves-light btn"><i class="material-icons" style="float:left;width:25px;">arrow_backward</i> Edit Profile</a>
+            </div>
+
+            <div class="col s6 text-right">
+              <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>NEXT</a>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+
+    </layout-row>
+
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+
+</body>
+
+</html>
